@@ -4,4 +4,6 @@ pictures from computer.
 created for linux based systems
 
 how it works?
-1. create a systemd script that open your 
+1. create a systemd script that open your releated python script.
+2. use #gnome-session-properties command on terminal and add "systemctl --user start service-name.service".
+
